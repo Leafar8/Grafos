@@ -1,6 +1,6 @@
 ﻿namespace Algoritimo_Grafo_MA
 {
-    partial class Form1
+    partial class FrmGrafo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmGrafo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(452, 252);
+            this.Name = "FrmGrafo";
+            this.Text = "Algoritimo em Grafos";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
