@@ -8,6 +8,7 @@ namespace Algoritimo_Grafo_MA
 {
     class Lista
     {
+        //Lista
         public List<Grafo> Grafos { get; set; } = new List<Grafo>();
     }
 }
